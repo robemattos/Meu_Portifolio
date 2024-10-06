@@ -170,3 +170,8 @@ input, select, textarea, button {
     color: #59429d;
     border-radius: 5px;
 }
+
+.rodape {
+    display: flex;
+    justify-content: center;
+}
