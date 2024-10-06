@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 350px;
+    /* border-style: solid;
+    border-color: black; */
+    justify-content: center;
+}
+
+.cabecalho {
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.cabecalho__titulo {
+    color: bule;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+.navegacao__lista {
+    width: 650px;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.apresentacao {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.apresentacao__titulo {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.apresencacao__container {
+    flex-direction: column;
+}
+
+.apresentacao__foto {
+    margin-top: 0;
+    border-radius: 50%;
+}
+
+.apresentacao__subtitulo {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.redes {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    justify-content: start;
+    margin-left: 15px;
+}
+
+.sobre-mim__elemento,.sobre-mim__titulo {
+    width: 900px;
+    background-color: rgb(226, 244, 244);
+    padding: 1%;
+}
+
+#skills, #hobbies, #projetos, #formacao {
+    width: 900px;
+    padding: 1%;
+}
+
+.skills__titulo, .skills__elemento, .hobbies__titulo, .hobbies__lista, .projetos__titulo, .projetos__container {
+    width: 900px;
+    margin-top: 2%;
+}
+
+.skills__lista {
+    display: flex;
+    width: 900px;
+    justify-content: start;
+    gap: 300px;
+    margin-left: 15px;
+}
+
+.hobbies__lista {
+    display: flex;
+    gap: 10%;
+    justify-content: start;
+    margin-left: 15px;
+}
+
+.formacao__titulo, .formacao__lista, .formacao__elemento {
+    width: 900px;
+    background-color: rgb(226, 244, 244);
+    margin-top: 0%;
+    padding: 1%;
+}
+
+.formacao__lista {
+    display: flex;
+    gap: 15%;
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+}
+.projetos__elementos {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.projetos__container {
+    justify-content: center;
+}
+
+#contato {
+    background-color: rgb(226, 244, 244);
+    width: 726px;
+}
+
+.contato__detalhe, .contato__informacoes {
+    margin: 12px;
+    padding: 1%;
+}
+
+.contato__campo__nome {
+    border: 0;
+}
+
+.contato__container {
+    display: flex;
+    margin-top: 3%;
+}
+
+.contato__titulo {
+    width: 900px;
+    margin-top: 0%;
+    padding: 1%;
+}
+
+.contato__formulario {
+    background-color: rgb(226, 244, 244);
+    padding: 1%;
+}
+
+.contato__botao {
+    padding: 1%;
+}
+
+#contato__imagem {
+    margin-top: 10%;
+}
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
