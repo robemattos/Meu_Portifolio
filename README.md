@@ -4,10 +4,6 @@
 <p>Projeto Meu Portifólio proposto pela iniciativa da Alura/Oracle.</p>
 <p>O objetivo do projeto é criar um portifólio usando as tecnologias aprendidas no curso.</p>
 
-<ul>
-  <li>URL: https://decodificadorde-extos.vercel.app/</li>
-</ul>
-
 <h2>Tecnologias</h2>
 
 <div>
